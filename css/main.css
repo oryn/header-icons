@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+.masthead {
+	padding: 1rem 0 1rem 0;
+}
+
+.title {
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.img-left {
+  float: left;
+  max-height: 40px;
+  width: 100%;
+  max-width: 40px;
+  vertical-align: middle;
+}
+
+.img-right {
+  float: right;
+  max-height: 40px;
+  width: 100%;
+  max-width: 40px;
+  vertical-align: middle;
+}
+
+nav {
+  clear: both;
+  display: block;
+}
+
+a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  background-color: #d05c2e;
+  color: #fff;
+  list-style-type: none;
+	padding: .5rem 0 .5rem 0;
+  width: 33.33333333333333333333333333333333333333333333333%;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  overflow: hidden;
+	padding: 0;
+}
+
+.home {
+  border-width: 2px 1px 2px 0;
+  border-style: solid;
+  border-color: #a63f38;
+}
+
+.cereals {
+  border-width: 2px 1px 2px 1px;
+  border-style: solid;
+  border-color: #a63f38;
+}
+
+.legumes {
+  border-width: 2px 0 2px 1px;
+  border-style: solid;
+  border-color: #a63f38;
+}
